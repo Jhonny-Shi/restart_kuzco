@@ -15,7 +15,7 @@ su
 
 <!--sec data-title="OS X и Linux" data-id="OSX_Linux_whoami" data-collapse=true ces-->
 ```
-cat > /root/check_ionet.sh <<EOF 
+cat > /root/check_kuzco.sh <<EOF 
 #!/bin/bash
 workers=29#根据自己gpu能力，更改此数值
 if pgrep -x "kuzco-runtime" > /dev/null
